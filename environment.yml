@@ -1,0 +1,11 @@
+name: myenv
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - scikit-learn
+  - pandas
+  - pip:
+    - joblib
+    - azureml-defaults
+    - azure-ai-ml
